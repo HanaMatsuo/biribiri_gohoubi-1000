@@ -32,36 +32,20 @@ body{
 header{
     width:100vw;
     border-bottom: 2px solid#595A63;
+    background-image:url(/images/h-background.png);
+    background-size: 100%;
+
 }
 
 .slider{
-  margin-top:216px;
+  padding-top:196px;
+  width: 100vw;
 }
 
 .slider img{
-  width: 85%;
+  width: 80%;
 }
 
-
-header h1{
-
-    position: absolute;
-    width: 100%;
-    height: 40px;
-    left: -34px;
-    top:100px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 400px;
-
-    display: flex;
-    align-items: center;
-    letter-spacing: -15px;
-
-    color:#ED4E01;
-
-    -webkit-text-stroke: 2px #595A63;
-}
 
 .h-banner{
   height: 30px;
@@ -86,52 +70,49 @@ header h1{
 
 
   .about{
-    width: 100%;
-    padding-top: 240px;
-    padding-bottom: 240px;
-    padding-left: 350px;
-    padding-right: 350px;
-    text-align: center;
+    width: 100vw;
     color:#595A63;
+    padding:15% 0;
 }
 
 
   .about-content{
-    text-align: left;
-    display:inline-block;
-    padding: 80px 160px 80px 160px;
+    width: 50%;
     border:2px solid #595A63;
     background-color: #fdfdfd;
-  } 
+    text-align: left;
+    margin:0 auto;
+    padding:3% 7%;
+  }
+
+
     
 
   .about h2{
     font-family:'Inter', sans-serif;
-    font-size: 128px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing:normal;
+    font-size: 8rem;
     font-weight: bold;
     background-color: #fdfdfd;
-
-    
   }
 
   .about h3{
     font-family: "YuGothic", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: bold;
-    letter-spacing: 0.7px;
-    line-height: 35px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    letter-spacing:3%;
+    padding: 50px 0;
     background-color: #fdfdfd;
-
-    
   }
 
   .about p{
     font-family: "yu-gothic-pr6n", sans-serif;
     font-style: normal;
+    font-size: 1rem;
     letter-spacing: 0.56px;
     line-height: 35px;
     padding-bottom: 20px;
@@ -155,48 +136,45 @@ header h1{
 
   .tabMenu{
     display:flex;
-    justify-content: space-around;
-  align-items: flex-end;
-  list-style: none;
+    list-style: none;
   
   }
 
   .tabItem{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 80px;
-    flex-basis: 12.5%;
-    flex-shrink: 0;
+    width: 12.5%;
     border-left: 1px solid #ED4E01;
     border-right: 1px solid #ED4E01;
     border-top: 1px solid #ED4E01;
-    border-radius: 40px 40px 0 0;
+    border-radius: 30px 30px 0 0;
     color: #ED4E01;
     font-family: "yu-gothic-pr6n", sans-serif;
     font-style: normal;
     font-weight: bold;
-    text-align: center;
     letter-spacing: 3px;
+    font-size:0.9em;
+    text-align: center;
+    padding-top:10px;
   }
 
-  .tabItem.tabItem-current{
-    color: #ED4E01;
-  }
-
+  
   a{
     color: #ED4E01;
-    display: inline;
     height: 80px;
-    border-radius: 40px 40px 0 0;
+    display: block;
   }
 
+  
   a:hover{
     color:#F5F3E8;
-    background-color:#ED4E01;
+  }
+  
+  .tabItem:hover{
+    background-color: #ED4E01;
   }
 
   .articles{
+    width: 100%;
     color:#595A63;
     display: flex;
     flex-wrap:wrap;
@@ -211,12 +189,12 @@ header h1{
 
   .article-content{
     position:relative;
-    padding:150px 0 150px 0;
+    padding:150px 0;
 
   }
 
   .article img{
-    width: 400px;
+    width: 55%;
     margin:0 auto;
     display: block;
   }
@@ -269,9 +247,17 @@ h6{
   line-height: 24px;
   letter-spacing: 0.66px;
   }
+  
+  .info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 24px auto;
+    padding:0 50px;
+  }
 
   .article-number{
-    height: 76px;
+    height: 72px;
     padding:0px 50px 0 0;
     border-right: 1px solid #595A63;
 
@@ -292,7 +278,7 @@ h6{
     font-style: normal;
     font-weight: 500;
     font-size: 13.5px;
-    line-height: 76px;
+    line-height: 72px;
     letter-spacing: 1.2px;
     }
 
@@ -301,18 +287,12 @@ h6{
   font-style: normal;
   font-weight: 500;
   font-size: 13.5px;
-  line-height: 76px;
+  line-height: 72px;
   letter-spacing: 1.2px;
   padding:0 0 0 50px;
   border-left: 1px solid #595A63;
   }
 
-  .info{
-    display: flex;
-    justify-content: space-between;
-
-    margin:8px 48px 16px 48px;
-  }
 
   .article-number{
     text-align: center;
@@ -329,99 +309,56 @@ h6{
   }
 
   .tabItem2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 80px;
-    flex-basis: 12.5%;
-    flex-shrink: 0;
+    width: 12.5%;
     border-left: 1px solid #ED4E01;
     border-right: 1px solid #ED4E01;
     border-bottom: 1px solid #ED4E01;
-    border-radius: 0 0 40px 40px;
+    border-radius: 0 0 30px 30px;
     color: #ED4E01;
     font-family: "yu-gothic-pr6n", sans-serif;
     font-style: normal;
     font-weight: bold;
     text-align: center;
     letter-spacing: 3px;
+    padding-top:8px;
   }
 
-  .tabItem-current2{
-    color: #ED4E01;
+  .tabItem2:hover{
+    background-color: #ED4E01;
   }
-
+  
+  
   
   footer{
-    margin-top: 160px;
+    height: 450px;
+    background-image: url(/images/f-backgroung.png);
+    background-size: 100%;
+    position:relative;
   }
 
+  .outer{
+    mix-blend-mode: overlay #F5F3E8;
+  }
  
-
-  
-
-.outer {
-  position:relative;
-  background-color:#ED4E01;
-  width:15%;
-  height: 216px;
-  margin:0 auto;
-  border-radius: 108px 108px 0 0;
-  border: 1px solid #595A63;
-}
-
-.black{
-  position:absolute;
-  top:96px;
-  right:-50px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 80px;
-  line-height: 34px;
-  letter-spacing: 0.56px;  
+  .f-title{
+  width: 100%;
   color:#ED4E01;
-  -webkit-text-stroke: 1px #595A63;
-  z-index:-1;
-}
-
-
-
-.white{
-  position:relative;
-  width:100%;
-  height:100%;
-  overflow:hidden;
-}
-.white::after{
-  position:absolute;
-  right:-50px;
-  top:96px;
-  content:"gohoubi";
-  white-space: pre;
-  font-family: 'Inter';
+  text-align: center;
+  font-family:'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 80px;
-  line-height: 34px;
-  letter-spacing: 0.56px;
-  color:#F5F3E8;
-  z-index:1;
-  -webkit-text-stroke: 1px #595A63;
+  font-size:5rem;
+  position:absolute;
 }
 
-.domain{
+.f-title::before {
+  mix-blend-mode: difference;
+  content: '';
+  top: 0;
+  left: 0;
   position: absolute;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  letter-spacing: 0.56px;
-  color:#F5F3E8;
-  z-index:1;
-  top:160px;
-  left:20px;
-  -webkit-text-stroke: 0.5px #595A63;
+  width:30%
 }
 
 
