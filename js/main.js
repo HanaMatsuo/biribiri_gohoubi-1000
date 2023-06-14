@@ -40,7 +40,7 @@ $(function($){
       });
 
     $(window).scroll(function(){
-      var targetElement = $('.about-content').offset().top;
+      var targetElement = $('.fadein').offset().top;
       var scroll = $(window).scrollTop();
       var windowHeight = $(window).height();
       if (scroll > targetElement - windowHeight + 200) {
@@ -50,5 +50,73 @@ $(function($){
 
     });
 
+    $(window).scroll(function(){
+      var targetElement = $('.fadein2').offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > targetElement - windowHeight+200) {
+        $('.fadein2').css('opacity','1');
+        $('.fadein2').css('transform','translateY(0)');
+      }
+
+    });
+
+    $(window).scroll(function(){
+      var targetElement = $('.fadein3').offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > targetElement - windowHeight + 0) {
+        $('.fadein3').css('opacity','1');
+        $('.fadein3').css('transform','translateY(0)');
+      }
+
+    });
+
+    $(window).scroll(function(){
+      var targetElement = $('.fadein4').offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > targetElement - windowHeight + 300) {
+        $('.fadein4').css('opacity','1');
+        $('.fadein4').css('transform','translateY(0)');
+      }
+
+    });
+
+    $(window).scroll(function(){
+      var targetElement = $('.fadein5').offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > targetElement - windowHeight + 300) {
+        $('.fadein5').css('opacity','1');
+        $('.fadein5').css('transform','translateY(0)');
+      }
+
+    });
+
+    $(window).scroll(function(){
+      var targetElement = $('.fadein6').offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > targetElement - windowHeight + 300) {
+        $('.fadein6').css('opacity','1');
+        $('.fadein6').css('transform','translateY(0)');
+      }
+
+    });
+
+
+
+
+    $(window).scroll(function(){
+      var targetElement = $('.fadein7').offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > targetElement - windowHeight + 0) {
+        $('.fadein7').css('opacity','1');
+        $('.fadein7').css('transform','translateY(0)');
+      }
+
+    });
   });
 

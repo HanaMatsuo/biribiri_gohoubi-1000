@@ -48,7 +48,6 @@ header{
 
 
 .h-banner{
-  height: 30px;
   width: 100%;
   justify-content: space-between;
   height: 80px;
@@ -56,13 +55,11 @@ header{
 
 .h-banner-content{
     color:#595A63;
-    width:  200px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
-    text-align: center;
-
+    text-align: center；
 
 }
 
@@ -76,14 +73,22 @@ header{
 }
 
 
-  .about-content{
-    width: 50%;
+.about-content{
+    width: 65%;
     border:2px solid #595A63;
     background-color: #fdfdfd;
     text-align: left;
     margin:0 auto;
-    padding:3% 7%;
+    padding:3% 13%;
   }
+
+  .fadein{
+     opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+
+  }
+
 
 
     
@@ -91,11 +96,13 @@ header{
   .about h2{
     font-family:'Inter', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    letter-spacing:normal;
+    font-weight: 500;
+    letter-spacing:3%;
     font-size: 8rem;
     font-weight: bold;
     background-color: #fdfdfd;
+
+
   }
 
   .about h3{
@@ -137,6 +144,8 @@ header{
   .tabMenu{
     display:flex;
     list-style: none;
+    justify-content: space-around;
+    align-items: flex-end;
   
   }
 
@@ -152,11 +161,14 @@ header{
     font-style: normal;
     font-weight: bold;
     letter-spacing: 3px;
-    font-size:0.9em;
     text-align: center;
-    padding-top:10px;
+    font-size: 1vw;
+    padding-top:8px;
   }
 
+  .tabItem:hover{
+    background-color: #ED4E01;
+  }
   
   a{
     color: #ED4E01;
@@ -169,9 +181,7 @@ header{
     color:#F5F3E8;
   }
   
-  .tabItem:hover{
-    background-color: #ED4E01;
-  }
+
 
   .articles{
     width: 100%;
@@ -186,6 +196,15 @@ header{
     border-right: 1px solid #595A63;
     width:50%;
   }
+
+  .fadein2,.fadein3,.fadein4,.fadein5,.fadein6{
+    opacity: 0;
+   transform: translateY(20px);
+   transition: all 1s;
+}
+
+ 
+
 
   .article-content{
     position:relative;
@@ -320,8 +339,9 @@ h6{
     font-family: "yu-gothic-pr6n", sans-serif;
     font-style: normal;
     font-weight: bold;
-    text-align: center;
     letter-spacing: 3px;
+    font-size: 1vw;
+    text-align: center;
     padding-top:8px;
   }
 
@@ -333,6 +353,13 @@ h6{
     margin-top: 200px;
   }
 
+  .fadein3{
+    opacity: 0;
+   transform: translateY(20px);
+   transition: all 1s;
+
+ }
+
   .outer {
     position: relative;
     background-color: #ED4E01;
@@ -341,6 +368,13 @@ h6{
     height: 200px;
     width: 200px;
     margin: 0 auto; 
+  }
+
+  .fadein7{
+    opacity: 0;
+   transform: translateY(20px);
+   transition: all 1s;
+  
   }
   
   /* 黒文字 */
@@ -473,7 +507,7 @@ h6{
   
   
   
-    .about{
+  .about{
       width: 100vw;
       color:#595A63;
       padding:15% 0;
@@ -487,18 +521,17 @@ h6{
   }
   
   .about-content{
-      width: 50%;
+      width: 65%;
       border:2px solid #595A63;
       background-color: #fdfdfd;
       text-align: left;
       margin:0 auto;
-      padding:3% 7%;
-  }
+      padding:3% 15%;
   
   
       
   
-    .about h2{
+   .about h2{
       font-family:'Inter', sans-serif;
       font-style: normal;
       font-weight: 700;
@@ -506,9 +539,10 @@ h6{
       font-size: 8rem;
       font-weight: bold;
       background-color: #fdfdfd;
+      width: 35%;
     }
   
-    .about h3{
+  .about h3{
       font-family: "YuGothic", sans-serif;
       font-weight: 700;
       font-style: normal;
@@ -519,7 +553,7 @@ h6{
       background-color: #fdfdfd;
     }
   
-    .about p{
+  .about p{
       font-family: "yu-gothic-pr6n", sans-serif;
       font-style: normal;
       font-size: 1rem;
@@ -562,7 +596,7 @@ h6{
       font-style: normal;
       font-weight: bold;
       letter-spacing: 3px;
-      font-size:0.9em;
+      font-size: 1vw;
       text-align: center;
       padding-top:10px;
     }
@@ -571,8 +605,6 @@ h6{
     a{
       color: #ED4E01;
       height: 80px;
-      width: 12.5%;
-      display: block;
     }
   
     
@@ -729,7 +761,7 @@ h6{
       font-style: normal;
       font-weight: bold;
       text-align: center;
-      font-size: 0.1vw;
+      font-size: 10%;
       letter-spacing: 3px;
       padding-top:8px;
     }
@@ -817,4 +849,4 @@ h6{
   
   
   
-  
+}
