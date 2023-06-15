@@ -271,6 +271,7 @@ h6 {
 }
 
 .article-number {
+  text-align: center;
   height: 72px;
   padding: 0px 50px 0 0;
   border-right: 1px solid #595A63;
@@ -306,14 +307,6 @@ h6 {
   padding: 0 0 0 50px;
   border-left: 1px solid #595A63;
 }
-
-
-.article-number {
-  text-align: center;
-}
-
-
-
 
 .tabMenu2 {
   display: flex;
@@ -430,9 +423,7 @@ footer {
     font-weight: 700;
     line-height: 80px;
     font-size: 12px;
-
-
-  }
+    }
 
 
 
@@ -556,25 +547,19 @@ footer {
 
   }
 
-  .article img {
-    width: 55%;
-    margin: 0 auto;
-    display: block;
-  }
-
   .article-title {
     display: flex;
     flex-flow: column;
     align-items: end;
     position: absolute;
-    left: 78px;
+    left: 30%;
     bottom: 40px;
 
   }
 
   h4 {
     text-align: center;
-    width: 304px;
+    width: 300px;
     font-family: "YuGothic";
     font-style: normal;
     font-weight: 600;
@@ -794,6 +779,44 @@ footer {
 
   }
 
+  .article-title {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    position: absolute;
+    left: 24%;
+    bottom: 80px;
+
+  }
+  h4 {
+    text-align: center;
+    width: 200px;
+    font-family: "YuGothic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    background-color: #fdfdfd;
+    border: 2px solid #595A63;
+    border-radius: 20px 20px 0 20px;
+  }
+
+  h5 {
+    font-family: "nimbus-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13.5px;
+    letter-spacing: 0.66px;
+    background-color: #fdfdfd;
+    border-bottom: 2px solid #595A63;
+    border-right: 2px solid #595A63;
+    border-left: 2px solid #595A63;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    width: 80px;
+    line-height: 30px;
+  }
 
   
 }
