@@ -61,7 +61,10 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 80px;
+  font-size:15px;
 }
+
+
 
 .about-block {
 
@@ -426,7 +429,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
-    font-size: 5px;
+    font-size: 12px;
 
 
   }
@@ -608,55 +611,30 @@ footer {
     letter-spacing: 0.66px;
   }
 
-  .info {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 24px auto;
-    padding: 0 0px;
-  }
+  
 
-  .article-number {
-    height: 72px;
-    padding: 0px 50px 0 0;
-    border-right: 1px solid #595A63;
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding:0 5%;
+}
 
-  }
+.article-number {
+  height: 72px;
+  padding: 0px 5% 0 0;
+  border-right: 1px solid #595A63;
 
-
-  .article-number p {
-    font-family: "nimbus-sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    line-height: 40px;
-    letter-spacing: 1.2px;
-  }
-
-  .data {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13.5px;
-    line-height: 72px;
-    letter-spacing: 1.2px;
-  }
-
-  .category {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13.5px;
-    line-height: 72px;
-    letter-spacing: 1.2px;
-    padding: 0 0 0 50px;
-    border-left: 1px solid #595A63;
-  }
-
-
-  .article-number {
-    text-align: center;
-  }
+}
+.category {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.5px;
+  line-height: 72px;
+  letter-spacing: 1.2px;
+  padding: 0 0 0 5%;
+  border-left: 1px solid #595A63;
+}
 
 
 
@@ -672,7 +650,6 @@ footer {
   footer {
     margin-top: 200px;
   }
-
   .outer {
     position: relative;
     background-color: #ED4E01;
@@ -745,7 +722,18 @@ footer {
 
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 420px){
+
+  .h-banner-content {
+    color: #595A63;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    font-size: 8px;
+
+
+  }
 
   .slider {
     padding-top: 100px;
@@ -805,5 +793,8 @@ footer {
 
 
   }
+
+
   
 }
+
