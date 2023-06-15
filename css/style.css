@@ -63,56 +63,53 @@ header{
 
 }
 
+.fadein{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s;
+
+}
+
 
 
 
   .about{
-    width: 100vw;
     color:#595A63;
-    padding:15% 0;
+    border:2px solid #595A63;
+    background-color: #fdfdfd;
+    
+     
+}
+
+.about-content{
+  display: block;
+  flex-direction: column;
+  margin: 50px auto;
+ 
+}
+
+.txt{
+  display: block;
 }
 
 
-.about-content{
-    width: 65%;
-    border:2px solid #595A63;
-    background-color: #fdfdfd;
-    text-align: left;
-    margin:0 auto;
-    padding:3% 13%;
-  }
-
-  .fadein{
-     opacity: 0;
-    transform: translateY(20px);
-    transition: all 1s;
-
-  }
-
-
-
-    
-
-  .about h2{
+  h2{
     font-family:'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     letter-spacing:3%;
     font-size: 8rem;
     font-weight: bold;
-    background-color: #fdfdfd;
-
 
   }
 
-  .about h3{
+   .about h3{
     font-family: "YuGothic", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.5rem;
     font-style: bold;
     letter-spacing:3%;
-    padding: 50px 0;
     background-color: #fdfdfd;
   }
 
@@ -197,7 +194,7 @@ header{
     width:50%;
   }
 
-  .fadein2,.fadein3,.fadein4,.fadein5,.fadein6{
+  .fadein {
     opacity: 0;
    transform: translateY(20px);
    transition: all 1s;
@@ -353,13 +350,7 @@ h6{
     margin-top: 200px;
   }
 
-  .fadein3{
-    opacity: 0;
-   transform: translateY(20px);
-   transition: all 1s;
-
- }
-
+ 
   .outer {
     position: relative;
     background-color: #ED4E01;
@@ -370,12 +361,7 @@ h6{
     margin: 0 auto; 
   }
 
-  .fadein7{
-    opacity: 0;
-   transform: translateY(20px);
-   transition: all 1s;
-  
-  }
+ 
   
   /* 黒文字 */
   .black {
@@ -486,7 +472,6 @@ h6{
   
   
   .h-banner{
-    height: 30px;
     width: 100%;
     justify-content: space-between;
     height: 80px;
@@ -494,7 +479,6 @@ h6{
   
   .h-banner-content{
       color:#595A63;
-      width:  200px;
       font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: 700;
@@ -521,12 +505,13 @@ h6{
   }
   
   .about-content{
-      width: 65%;
+      width: 70%;
       border:2px solid #595A63;
       background-color: #fdfdfd;
       text-align: left;
       margin:0 auto;
-      padding:3% 15%;
+      padding:3% 10%;
+  }
   
   
       
@@ -542,18 +527,18 @@ h6{
       width: 35%;
     }
   
-  .about h3{
+   .about h3{
       font-family: "YuGothic", sans-serif;
       font-weight: 700;
       font-style: normal;
       font-size: 1.5rem;
       font-style: bold;
       letter-spacing:3%;
-      padding: 50px 0;
+      padding: 30px 0;
       background-color: #fdfdfd;
     }
   
-  .about p{
+   .about p{
       font-family: "yu-gothic-pr6n", sans-serif;
       font-style: normal;
       font-size: 1rem;
@@ -627,6 +612,8 @@ h6{
       border-right: 1px solid #595A63;
       width:100%;
     }
+
+   
   
     .article-content{
       position:relative;
@@ -645,8 +632,8 @@ h6{
       flex-flow: column;
       align-items:end;
       position:absolute;
-      left:96px;
-      bottom:72px;
+      left:78px;
+      bottom:40px;
       
     }
   
@@ -680,7 +667,7 @@ h6{
     line-height: 40px;
     }
   
-  h6{
+   h6{
     font-family:'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -849,4 +836,3 @@ h6{
   
   
   
-}
