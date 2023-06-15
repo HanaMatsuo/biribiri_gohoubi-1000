@@ -63,14 +63,14 @@ header {
   line-height: 80px;
 }
 
-.about-block{
-  
+.about-block {
+
   color: #595A63;
   margin: 50px auto;
   border: 2px solid #595A63;
   background-color: #fdfdfd;
   width: 60%;
-  padding:7% 0;
+  padding: 7% 0;
 
 }
 
@@ -79,8 +79,8 @@ header {
 
 
 .about-content {
-  margin:0 auto;
-  width:fit-content;
+  margin: 0 auto;
+  width: fit-content;
 }
 
 
@@ -102,7 +102,7 @@ h2 {
   font-size: 1.5rem;
   font-style: bold;
   letter-spacing: 3%;
-  
+
 }
 
 .about p {
@@ -112,6 +112,10 @@ h2 {
   letter-spacing: 0.56px;
   line-height: 35px;
   padding-bottom: 20px;
+}
+
+.navigation {
+  display: none;
 }
 
 
@@ -218,7 +222,7 @@ a:hover {
 
 h4 {
   text-align: center;
-  width: 304px;
+  width: 300px;
   font-family: "YuGothic";
   font-style: normal;
   font-weight: 600;
@@ -411,36 +415,10 @@ footer {
   font-size: 1.5rem;
 }
 
- 
+
 
 
 @media screen and (max-width: 768px) {
- 
-
-
-  header {
-    width: 100vw;
-    border-bottom: 2px solid#595A63;
-    background-image: url(/images/h-background.png);
-    background-size: 100%;
-
-  }
-
-  .slider {
-    padding-top: 196px;
-    width: 100vw;
-  }
-
-  .slider img {
-    width: 80%;
-  }
-
-
-  .h-banner {
-    width: 100%;
-    justify-content: space-between;
-    height: 80px;
-  }
 
   .h-banner-content {
     color: #595A63;
@@ -448,39 +426,34 @@ footer {
     font-style: normal;
     font-weight: 700;
     line-height: 80px;
-    font-size:5px;
+    font-size: 5px;
 
 
   }
-  .fadein {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 1s;
+
+
+
+
+
+  .about-block {
+
+    color: #595A63;
+    margin: 50px auto;
+    border: 2px solid #595A63;
+    background-color: #fdfdfd;
+    width: 60%;
+    padding: 7% 0;
 
   }
 
 
 
 
-  .about-block{
-  
-  color: #595A63;
-  margin: 50px auto;
-  border: 2px solid #595A63;
-  background-color: #fdfdfd;
-  width: 60%;
-  padding:7% 0;
 
-}
-
-
-
-
-
-.about-content {
-  margin:0 auto;
-  width:fit-content;
-}
+  .about-content {
+    margin: 0 auto;
+    width: fit-content;
+  }
 
 
 
@@ -491,75 +464,64 @@ footer {
     font-style: normal;
     font-weight: 700;
     letter-spacing: normal;
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: bold;
-    
+
   }
 
   .about h3 {
     font-family: "YuGothic", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-style: bold;
     letter-spacing: 3%;
     padding: 30px 0;
-   
+
   }
 
   .about p {
     font-family: "yu-gothic-pr6n", sans-serif;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
     letter-spacing: 0.56px;
     line-height: 35px;
     padding-bottom: 20px;
-   
+
 
   }
 
 
 
 
-  ul,
-  li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+
 
   .index {
-    width: 100vw;
-    margin: 0 auto;
+    display: none;
   }
 
-  .tabMenu {
-    display: flex;
-    list-style: none;
 
+  .navigation {
+    display: block;
+    margin:100px 0;
   }
 
   .tabItem {
-    height: 80px;
-    width: 12.5%;
-    border-left: 1px solid #ED4E01;
-    border-right: 1px solid #ED4E01;
-    border-top: 1px solid #ED4E01;
-    border-radius: 30px 30px 0 0;
-    color: #ED4E01;
-    font-family: "yu-gothic-pr6n", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    letter-spacing: 3px;
-    font-size: 1vw;
-    text-align: center;
-    padding-top: 10px;
+    width: 300px;
+    margin:10px auto;
+    border: 1px solid #595A63;
+    border-radius: 20px 20px 0 20px;
+    background-color: #fdfdfd;
   }
 
+  ul,
+  li {
+    list-style: none;
+  }
 
   a {
-    color: #ED4E01;
-    height: 80px;
+    color: #595A63;
+    font-size: 15px;
   }
 
 
@@ -651,7 +613,7 @@ footer {
     justify-content: space-between;
     width: 100%;
     margin: 24px auto;
-    padding: 0 50px;
+    padding: 0 20px;
   }
 
   .article-number {
@@ -700,27 +662,7 @@ footer {
 
 
   .tabMenu2 {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    list-style: none;
-
-  }
-
-  .tabItem2 {
-    height: 80px;
-    border-left: 1px solid #ED4E01;
-    border-right: 1px solid #ED4E01;
-    border-bottom: 1px solid #ED4E01;
-    border-radius: 0 0 30px 30px;
-    color: #ED4E01;
-    font-family: "yu-gothic-pr6n", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    font-size: 10%;
-    letter-spacing: 3px;
-    padding-top: 8px;
+    display: none;
   }
 
   .tabItem2:hover {
