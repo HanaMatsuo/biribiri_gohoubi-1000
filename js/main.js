@@ -13,7 +13,7 @@ $(function($){
         {
           breakpoint: 768,
           settings: {
-          slidesToShow: 3,
+          slidesToShow: 2.5,
           vertical: true,       //追記
  // 画面幅750px以下でスライド3枚表示
           }
@@ -22,7 +22,9 @@ $(function($){
     });
   
 
-    $('.h-banner').slick({
+   
+
+      $('.h-banner').slick({
         autoplay: true, // 自動でスクロール
         autoplaySpeed: 0, // 自動再生のスライド切り替えまでの時間を設定
         speed: 3000, // スライドが流れる速度を設定
@@ -37,7 +39,7 @@ $(function($){
             breakpoint: 768,
             settings: {
               autoplaySpeed: 0,
-              slidesToShow: 6, // 画面幅750px以下でスライド3枚表示
+              slidesToShow: 7, // 画面幅750px以下でスライド3枚表示
               vertical:true,
             }
           }

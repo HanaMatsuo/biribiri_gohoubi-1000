@@ -39,9 +39,6 @@ header {
 
 }
 
-.h-banner1{
-  display: none;
-}
 
 .slider {
   padding-top: 196px;
@@ -53,7 +50,7 @@ header {
 }
 
 
-.h-banner2{
+.h-banner{
   justify-content: space-between;
   height: 80px;
 }
@@ -431,17 +428,15 @@ footer {
   header{
     display: flex;
     justify-content: space-between;
-    height: 1200px;
+    height: 1500px;
   }
 
   
   .h-banner{
-      justify-content: space-between;
-      height: 80px;
-      padding: 196px 0 0 0;
-      margin:0 10px;
-      width: 12px;
+      display: none;
     }
+
+    
   
 
   .h-banner-content p{
@@ -458,6 +453,7 @@ footer {
     .slider img {
       width: 50%;
       margin:50px auto;
+      padding-bottom:50px;
     }
 
 
@@ -748,22 +744,8 @@ footer {
 
 
 .h-banner {
-  width: 100%;
-  justify-content: space-between;
-  height: 50px;
+ display: none;
 }
-
-
-  .h-banner-content {
-    color: #595A63;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px;
-    font-size: 8px;
-
-
-  }
 
   .h-banner-content img{
     height: 10px;
