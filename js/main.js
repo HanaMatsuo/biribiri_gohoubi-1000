@@ -13,7 +13,7 @@ $(function($){
         {
           breakpoint: 768,
           settings: {
-          slidesToShow: 2.5,
+          slidesToShow: 3.5,
           vertical: true,       //追記
  // 画面幅750px以下でスライド3枚表示
           }
