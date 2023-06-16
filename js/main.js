@@ -11,13 +11,16 @@ $(function($){
       pauseOnHover: false, // スライダーにマウスホバーした時にスライドを停止させるか
       responsive: [
         {
-          breakpoint: 750,
+          breakpoint: 768,
           settings: {
-            slidesToShow: 3, // 画面幅750px以下でスライド3枚表示
+          slidesToShow: 3,
+          vertical: true,       //追記
+ // 画面幅750px以下でスライド3枚表示
           }
         }
       ]
     });
+  
 
     $('.h-banner').slick({
         autoplay: true, // 自動でスクロール
@@ -31,9 +34,11 @@ $(function($){
         pauseOnHover: false, // スライダーにマウスホバーした時にスライドを停止させるか
         responsive: [
           {
-            breakpoint: 750,
+            breakpoint: 768,
             settings: {
-              slidesToShow: 3, // 画面幅750px以下でスライド3枚表示
+              autoplaySpeed: 0,
+              slidesToShow: 6, // 画面幅750px以下でスライド3枚表示
+              vertical:true,
             }
           }
         ]

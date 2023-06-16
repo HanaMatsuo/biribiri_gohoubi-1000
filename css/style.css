@@ -39,6 +39,10 @@ header {
 
 }
 
+.h-banner1{
+  display: none;
+}
+
 .slider {
   padding-top: 196px;
   width: 100vw;
@@ -49,8 +53,7 @@ header {
 }
 
 
-.h-banner {
-  width: 100%;
+.h-banner2{
   justify-content: space-between;
   height: 80px;
 }
@@ -228,17 +231,18 @@ a:hover {
   position: absolute;
   left: 96px;
   bottom: 72px;
+  
 
 }
 
 h4 {
-  text-align: center;
   width: 300px;
+  text-align: center;
   font-family: "YuGothic";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
-  line-height: 80px;
+  line-height: 3.5em;
   letter-spacing: 5px;
   background-color: #fdfdfd;
   border: 2px solid #595A63;
@@ -424,15 +428,37 @@ footer {
 
 @media screen and (max-width: 768px) {
 
-  .h-banner-content {
+  header{
+    display: flex;
+    justify-content: space-between;
+    height: 1200px;
+  }
+
+  
+  .h-banner{
+      justify-content: space-between;
+      height: 80px;
+      padding: 196px 0 0 0;
+      margin:0 10px;
+      width: 12px;
+    }
+  
+
+  .h-banner-content p{
+    text-orientation: upright;
     color: #595A63;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
-    line-height: 80px;
+    line-height: 15px;
     font-size: 12px;
+    width: 1px;
     }
 
+    .slider img {
+      width: 50%;
+      margin:50px auto;
+    }
 
 
 
@@ -466,7 +492,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     letter-spacing: normal;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: bold;
     padding-bottom:15px;
 
@@ -514,7 +540,8 @@ footer {
     width: 300px;
     margin:10px auto;
     border: 1px solid #595A63;
-    border-radius: 20px 20px 0 20px;
+    border-radius: 20px 20px  20px 0
+    ;
     background-color: #fdfdfd;
   }
 
@@ -546,6 +573,7 @@ footer {
   .article {
     border-bottom: 1px solid #595A63;
     border-right: 1px solid #595A63;
+    border-left:1px solid #595A63;
     width: 100%;
   }
 
@@ -563,18 +591,17 @@ footer {
     align-items: end;
     position: absolute;
     left: 30%;
-    bottom: 40px;
+    bottom: 60px;
 
   }
 
   h4 {
     text-align: center;
-    width: 300px;
     font-family: "YuGothic";
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 80px;
+    font-size: 20px;
+    line-height: 64px;
     letter-spacing: 5px;
     background-color: #fdfdfd;
     border: 2px solid #595A63;
@@ -593,8 +620,8 @@ footer {
     border-left: 2px solid #595A63;
     border-radius: 0 0 20px 20px;
     text-align: center;
-    width: 100px;
-    line-height: 40px;
+    width: 81px;
+    line-height: 32px;
   }
 
   h6 {
@@ -738,6 +765,12 @@ footer {
 
   }
 
+  .h-banner-content img{
+    height: 10px;
+    margin:20px 0;
+  }
+
+
   .slider {
     padding-top: 100px;
     width: 100vw;
@@ -771,7 +804,7 @@ footer {
     font-style: normal;
     font-weight: 700;
     letter-spacing: normal;
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: bold;
     padding-bottom:8px;
 
@@ -808,8 +841,8 @@ footer {
 
   }
   h4 {
-    text-align: center;
     width: 200px;
+    text-align: center;
     font-family: "YuGothic";
     font-style: normal;
     font-weight: 600;
