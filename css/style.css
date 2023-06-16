@@ -742,6 +742,13 @@ footer {
 
 @media screen and (max-width: 420px){
 
+  header{
+    display: flex;
+    justify-content: space-between;
+    height: 1200px;
+  }
+
+
 
 .h-banner {
  display: none;
